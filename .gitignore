@@ -1,0 +1,9 @@
+# Ignore output markdown files
+output/*.md
+
+# Ignore temporary directories
+.tmp_*
+*.tmp
+
+# Keep the output directory itself
+!output/.gitkeep
